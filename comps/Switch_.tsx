@@ -71,7 +71,7 @@ export default function Switch_({
           transition={transition}
           animate={{
             translateX: isActive ? SIZE / 4 : -SIZE / 4,
-            rotate: isActive ? Math.PI / 2 : -Math.PI / 2,
+            rotate: isActive ? `${Math.PI / 2}rad` : `${-Math.PI / 2}rad`,
           }}
           // animate={{ translateX: isActive ? SIZE * (3 / 4) : -SIZE * (1 / 4) }}
         >
